@@ -1,0 +1,28 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <header>
+            <div class="container header-container">
+                <input id="input-color" class="input-color" type="color"/>
+                <select id="option" class="select-options">
+                    <option value="monochrome">Monochrome</option>
+                    <option value="monochrome-dark">Monochrome-dark</option>
+                    <option value="monochrome-light">Monochrome-light</option>
+                    <option value="analogic">Analogic</option>
+                    <option value="complement">Complement</option>
+                    <option value="analogic-complement">Analogic-complement</option>
+                    <option value="triad">Triad</option>
+                </select>
+                <button id="btn-color" class="btn-color">Get color scheme</button>
+            </div>
+        </header>
+        <main>
+            <div id="color-container" class="container container-main"></div>        
+        </main>
+        
+        <script type="module" src="/app.js"></script>
+    </body>
+</html>
